@@ -1,7 +1,7 @@
 # WetGoat :goat:
 
 
-<img src="https://github.com/freetechno128/WetGoat/raw/master/wetgoat_preview.gif | width=400)" width="400">
+<img src="https://github.com/freetechno128/WetGoat/raw/master/wetgoat_preview.gif" width="400">
 
 
 Weather App built using React and the OpenWeatherMap API.
