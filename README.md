@@ -1,7 +1,7 @@
 # WetGoat :goat:
 
 
-![WetGoat Preview](wetgoat_preview.gif)
+![WetGoat Preview](wetgoat_preview.gif | width=400)
 
 
 Weather App built using React and the OpenWeatherMap API.
