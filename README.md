@@ -1,13 +1,10 @@
-# NMT-React
+# WetGoat :goat:
 
 
 ![WetGoat Preview](wetgoat_preview.gif)
 
 
-
-
-This tool based under a Neural Machine Translation technology will help you translate English to German. The frontend uses ReactJS to dynamically render the DOM and Bootstrap to make the website responsive. The backend is written in Python using Flask to easily define the endpoints. The machine learning model was built using TensorFlow and OpenNMT.
-
+Weather App built using React and the OpenWeatherMap API.
 
 ## Built With
 
