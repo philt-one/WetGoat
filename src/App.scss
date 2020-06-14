@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700&display=swap');
+body {
+    overflow: hidden;
+    cursor: none;
+}
+
+.header-bar {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0));
+    color: #ffffff;
+    position: absolute;
+    width: 100vw;
+}
+
+.weather-app {
+    padding-top: 96px;
+    // background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.76), rgba(32, 32, 32, 0.342));
+    background-color: #0000005d;
+    color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.weather-card {
+    max-width: 600px;
+    text-align: left;
+    position:absolute;
+    bottom:140px;
+    left:20px;
+    height: 140px;
+}
+
+.weather-info__temperature {
+    font-size: 180px;
+    padding-right: 20px;
+}
+
+.weather-info__name {
+    font-family: 'Work Sans', sans-serif;
+
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.weather-info__description {
+    font-size: 20px;
+}
+
+.weather-info__right {
+    padding-top: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+    .weather-info__temperature {
+        padding-top: 50px;
+        font-size: 120px;
+    }
+    .weather-info__description {
+        font-size: 18px;
+    }
+    .weather-info__name {    
+        font-size: 22px;
+        font-weight: 200;
+    }
+}
+
+.text-logo {
+    padding-left: 12px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 200;
+
+}
+
+.search {
+    width: 197px;
+    margin: 4px;
+    background-color: #00000062;
+    transition: all 0.15s;
+    &:focus-within {
+        background-color: #00000094;
+    }
+    position: relative;
+    z-index: 1;
+
+    &__text {
+        width: 147px;
+        padding: 15px 0 15px 20px;
+        font-size: 16px;
+        font-family: 'Work Sans', sans-serif;
+        border: 0 none;
+        height: 42px;
+        margin-right: 0;
+        color: rgb(212, 211, 211);
+        outline: none;
+        background: #00000000;
+        float: left;
+        box-sizing: border-box;
+        transition: all 0.15s;
+        cursor: none;
+    }
+    
+    &__icon {
+        font-size: 20px;
+        margin: 11px;
+        color: rgb(199, 199, 199);
+    }
+
+    &__icon-box {
+        height: 42px;
+    }
+    &__dropdown {
+        z-index: 1;
+        position: absolute;
+        top: 56px;
+        // padding-left: 20px;
+        width: 197px;
+        background-color: #ffffff;
+        color: black;
+        padding-top: 6px;
+        overflow-y: scroll;
+        max-height: 200px;
+    }
+    &__dropdown-ul {
+        list-style-type: none;
+        padding: 10px;
+    }
+
+    &__dropdown-item {
+        width: 177px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    
+    
+        &:hover {
+            background-color: #d8d7d7;
+        }
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 4px;
+    color: #ffffff;
+    left: 0px;
+    border-top: #ffffff6e solid 1px;
+    width: 100vw;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer__text {
+    padding-left: 30px;
+}
